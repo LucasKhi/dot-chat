@@ -1,0 +1,86 @@
+/* src/components/Login.css */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to right, #1f1f1f, #2c3e50);
+  
+}
+
+.login-left, .login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-left p {
+  font-size: 1.2rem;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+
+.login-right label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-right input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.login-right button {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  
+  cursor: pointer;
+}
+
+.login-right button:hover {
+  background-color: #2980b9;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.google-login {
+  background-color: #db4437;
+  
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.google-login:hover {
+  background-color: #c23321;
+}
+
+.login-right p {
+  margin-top: 1rem;
+}
+
+.login-right a {
+  color: #3498db;
+}
